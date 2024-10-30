@@ -26,7 +26,7 @@ mode="Desktop">
 	</variables>
 	<recorditems>
 		<mouseitem
-		action="DoubleClick"
+		action="Up"
 		button="Left"
 		duration="300ms"
 		enabled="True"
@@ -194,7 +194,6 @@ mode="Desktop">
 					/dom[@domain='www.saucedemo.com']//input[#'user-name']
 				</path>
 				<robustPath>
-					/dom[@domain='www.saucedemo.com']//input[#'user-name']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -498,7 +497,6 @@ AFFFFABRRRQAUUUUAFFFFAH/2Q==
 					/dom[@domain='www.saucedemo.com']//input[#'password']
 				</path>
 				<robustPath>
-					/dom[@domain='www.saucedemo.com']//input[#'password']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -806,7 +804,6 @@ AUUUUAFW9KjSXUYkkUMuc4P0oopAdqv3RS0UUDCiiigAooooAKKKKACiiigAooooA//Z
 					/dom[@domain='www.saucedemo.com']//input[#'login-button']
 				</path>
 				<robustPath>
-					/dom[@domain='www.saucedemo.com']//input[#'login-button']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -940,7 +937,6 @@ RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
 					/dom[@domain='www.saucedemo.com']//div[#'login_button_container']/?/?/form[@action='https://www.saucedemo.com/v1/index.html']/h3[@innertext&gt;'Epic sadface: Username is']
 				</path>
 				<robustPath>
-					/dom[@domain='www.saucedemo.com']//div[#'login_button_container']//h3[@innertext&gt;'Epic sadface: Username is']
 				</robustPath>
 			</info>
 			<helperscreenshot
