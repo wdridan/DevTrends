@@ -679,7 +679,7 @@ AUUUUAFW9KjSXUYkkUMuc4P0oopAdqv3RS0UUDCiiigAooooAKKKKACiiigAooooA//Z
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
-		action="Click"
+		action="DoubleClick"
 		button="Left"
 		duration="300ms"
 		enabled="True"

@@ -92,8 +92,8 @@ namespace MyTest
             repo.ApplicationUnderTest.Password.Click("29;19");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LoginButton' at 41;21.", repo.ApplicationUnderTest.LoginButtonInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.LoginButton.Click("41;21");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.LoginButton' at 41;21.", repo.ApplicationUnderTest.LoginButtonInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.LoginButton.DoubleClick("41;21");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.EpicSadfaceUsernameIsRequired'.", repo.ApplicationUnderTest.EpicSadfaceUsernameIsRequiredInfo, new RecordItemIndex(4));
