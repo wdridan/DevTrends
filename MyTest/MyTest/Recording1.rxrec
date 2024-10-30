@@ -42,6 +42,23 @@ mode="Desktop">
 			<bindings>
 			</bindings>
 		</mouseitem>
+		<swiperecorditem
+		direction="270"
+		distance=".5"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="710ce010-be1c-468d-8c04-a6c4667aeee5"
+		startlocation="Center"
+		steps="0"
+		swipeduration="500ms"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</swiperecorditem>
 		<mouseitem
 		action="DoubleClick"
 		button="Left"
