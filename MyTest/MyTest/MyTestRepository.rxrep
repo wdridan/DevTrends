@@ -1,30 +1,74 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTestRepository"
-id="1ce199cd-da64-4d37-81a9-d278dd753f41">
-  <codegen
-  classname="MyTestRepository"
-  namespace="MyTest"/>
-  <rootfolder
-  name="Root"
-  id="77ea5a2c-5348-4cc2-a256-d975bb1aefe0"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-      <appfolder
-          addcaps="container,webdocument"
-          capname="webdocument"
-          id="ce52d1c8-263b-437e-98de-ac315cdd86a8"
-          isrooted="True"
-          name="ApplicationUnderTest"
-          searchtimeout="30000ms"
-          usecache="False">
-          <basepath>
-              /dom[@domain='www.saucedemo.com']
-          </basepath>
-          <icon>
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+﻿<repository
+id="1ce199cd-da64-4d37-81a9-d278dd753f41"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="77ea5a2c-5348-4cc2-a256-d975bb1aefe0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ce52d1c8-263b-437e-98de-ac315cdd86a8"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b3808437-69f6-497b-8c0b-c7448c57fe21"
+			name="UserName"
+			refimgid="dbdd9464-2218-4f5b-932d-3e1815b71ee0"
+			refpath="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+			robustPath="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.saucedemo.com']//input[#'user-name']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e0decc90-f72b-4f0a-a2ba-efd57ed7a7f4"
+			name="Password"
+			refimgid="f14d2677-29c8-40ae-873b-c28694ae2375"
+			refpath="/dom[@domain='www.saucedemo.com']//input[#'password']"
+			robustPath="/dom[@domain='www.saucedemo.com']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.saucedemo.com']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0bead7ec-169e-45ba-ab89-4c4ea39acbc6"
+			name="LoginButton"
+			refimgid="873c569c-5e66-4508-b0df-07386f487e4f"
+			refpath="/dom[@domain='www.saucedemo.com']//input[#'login-button']"
+			robustPath="/dom[@domain='www.saucedemo.com']//input[#'login-button']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.saucedemo.com']//input[#'login-button']
+			</item>
+			<item
+			addcaps="unknown,webelement,h3tag"
+			capname="h3tag"
+			id="cf6ec188-7ca9-4b4e-b94d-c3923a28febd"
+			name="EpicSadfaceUsernameIsRequired"
+			refimgid="a0738a7b-cb62-4c67-807b-6608e87d28c2"
+			refpath="/dom[@domain='www.saucedemo.com']//div[#'login_button_container']/div/form[@action='https://www.saucedemo.com/v1/index.html']/h3[@innertext='Epic sadface: Username is required']"
+			robustPath="/dom[@domain='www.saucedemo.com']//div[#'login_button_container']//h3[@innertext>'Epic sadface: Username is']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.saucedemo.com']//div[#'login_button_container']/?/?/form[@action='https://www.saucedemo.com/v1/index.html']/h3[@innertext&gt;'Epic sadface: Username is']
+			</item>
+			<basepath>
+				/dom[@domain='www.saucedemo.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
 dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
 yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
@@ -37,9 +81,11 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-          </icon>
-      </appfolder>
-      <basepath/>
-  </rootfolder>
-  <variables/>
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>
