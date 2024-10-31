@@ -27,7 +27,7 @@ mode="Desktop">
 	<recorditems>
 		<mouseitem
 		action="DoubleClick"
-		button="Left"
+		button="Right"
 		duration="300ms"
 		enabled="True"
 		loc="Center"

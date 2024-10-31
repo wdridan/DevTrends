@@ -79,9 +79,9 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick at {X=0,Y=0}.", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right DoubleClick at {X=0,Y=0}.", new RecordItemIndex(0));
             Mouse.MoveTo(0, 0);
-            Mouse.DoubleClick(System.Windows.Forms.MouseButtons.Left);
+            Mouse.DoubleClick(System.Windows.Forms.MouseButtons.Right);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.UserName' at 30;18.", repo.ApplicationUnderTest.UserNameInfo, new RecordItemIndex(1));
