@@ -84,8 +84,8 @@ namespace MyTest
             Mouse.Click(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UserName' at 30;18.", repo.ApplicationUnderTest.UserNameInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.UserName.Click("30;18");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.UserName' at 30;18.", repo.ApplicationUnderTest.UserNameInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.UserName.DoubleClick("30;18");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Password' at 29;19.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
