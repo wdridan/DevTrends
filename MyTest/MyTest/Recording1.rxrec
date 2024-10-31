@@ -1111,6 +1111,23 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 			<matchvalue>
 			</matchvalue>
 		</validationitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="40d6d41b-596f-4781-9346-d48b67692188"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="1ce199cd-da64-4d37-81a9-d278dd753f41"

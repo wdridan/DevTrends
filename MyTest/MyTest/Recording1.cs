@@ -100,6 +100,10 @@ namespace MyTest
             Validate.Exists(repo.ApplicationUnderTest.EpicSadfaceUsernameIsRequiredInfo);
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move at {X=0,Y=0}.", new RecordItemIndex(5));
+            Mouse.MoveTo(0, 0);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
