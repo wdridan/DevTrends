@@ -88,8 +88,8 @@ namespace MyTest
             repo.ApplicationUnderTest.UserName.DoubleClick("30;18");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.Password' at 29;19.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Password.DoubleClick("29;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Password' at 29;19.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Password.MoveTo("29;19");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LoginButton' at 41;21.", repo.ApplicationUnderTest.LoginButtonInfo, new RecordItemIndex(3));
