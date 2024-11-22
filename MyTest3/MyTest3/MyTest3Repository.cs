@@ -137,6 +137,9 @@ namespace MyTest3
             RepoItemInfo _csstlfeczindicatorcontainerInfo;
             RepoItemInfo _jaiselmerInfo;
             RepoItemInfo _submitInfo;
+            RepoItemInfo _otherInfo;
+            RepoItemInfo _femaleInfo;
+            RepoItemInfo _modalcontentInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -163,6 +166,9 @@ namespace MyTest3
                 _csstlfeczindicatorcontainerInfo = new RepoItemInfo(this, "CssTlfeczIndicatorContainer", ".//div[#'city']/div/div[2]/div", ".//div[#'city']/div/div[2]/div", 30000, null, "f15cf221-88eb-45a3-9ddb-a6ce2dd2c1c1");
                 _jaiselmerInfo = new RepoItemInfo(this, "Jaiselmer", ".//div[#'city']//div[@innertext='Jaiselmer']", ".//div[#'city']//div[@innertext='Jaiselmer']", 30000, null, "8cbac9c9-1626-433f-891c-a23b61dad608");
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//button[#'submit']", ".//button[#'submit']", 30000, null, "4fb35747-1739-48e1-a055-47eee10fc774");
+                _otherInfo = new RepoItemInfo(this, "Other", ".//div[#'genterWrapper']//label[@innertext='Other']", ".//div[#'genterWrapper']//label[@innertext='Other']", 30000, null, "a1a79fc7-6540-4c3e-94ec-e34fb9c4ceeb");
+                _femaleInfo = new RepoItemInfo(this, "Female", ".//div[#'genterWrapper']//label[@innertext='Female']", ".//div[#'genterWrapper']//label[@innertext='Female']", 30000, null, "9b4a237d-60c0-4934-bbaa-e422702572f3");
+                _modalcontentInfo = new RepoItemInfo(this, "ModalContent", "body/div[4]/div/div", "body/div[4]/div/div", 30000, null, "653fd787-0559-44ec-8a14-c43e86a8a858");
             }
 
             /// <summary>
@@ -618,6 +624,78 @@ namespace MyTest3
                 get
                 {
                     return _submitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Other item.
+            /// </summary>
+            [RepositoryItem("a1a79fc7-6540-4c3e-94ec-e34fb9c4ceeb")]
+            public virtual Ranorex.LabelTag Other
+            {
+                get
+                {
+                    return _otherInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Other item info.
+            /// </summary>
+            [RepositoryItemInfo("a1a79fc7-6540-4c3e-94ec-e34fb9c4ceeb")]
+            public virtual RepoItemInfo OtherInfo
+            {
+                get
+                {
+                    return _otherInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Female item.
+            /// </summary>
+            [RepositoryItem("9b4a237d-60c0-4934-bbaa-e422702572f3")]
+            public virtual Ranorex.LabelTag Female
+            {
+                get
+                {
+                    return _femaleInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Female item info.
+            /// </summary>
+            [RepositoryItemInfo("9b4a237d-60c0-4934-bbaa-e422702572f3")]
+            public virtual RepoItemInfo FemaleInfo
+            {
+                get
+                {
+                    return _femaleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ModalContent item.
+            /// </summary>
+            [RepositoryItem("653fd787-0559-44ec-8a14-c43e86a8a858")]
+            public virtual Ranorex.DivTag ModalContent
+            {
+                get
+                {
+                    return _modalcontentInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ModalContent item info.
+            /// </summary>
+            [RepositoryItemInfo("653fd787-0559-44ec-8a14-c43e86a8a858")]
+            public virtual RepoItemInfo ModalContentInfo
+            {
+                get
+                {
+                    return _modalcontentInfo;
                 }
             }
 

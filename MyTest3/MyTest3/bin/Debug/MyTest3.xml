@@ -449,6 +449,36 @@
             The Submit item info.
             </summary>
         </member>
+        <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.Other">
+            <summary>
+            The Other item.
+            </summary>
+        </member>
+        <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.OtherInfo">
+            <summary>
+            The Other item info.
+            </summary>
+        </member>
+        <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.Female">
+            <summary>
+            The Female item.
+            </summary>
+        </member>
+        <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.FemaleInfo">
+            <summary>
+            The Female item info.
+            </summary>
+        </member>
+        <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.ModalContent">
+            <summary>
+            The ModalContent item.
+            </summary>
+        </member>
+        <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.ModalContentInfo">
+            <summary>
+            The ModalContent item info.
+            </summary>
+        </member>
         <member name="P:MyTest3.MyTest3RepositoryFolders.ApplicationUnderTestAppFolder.ReactDatepickerMonthContainer1">
             <summary>
             The ReactDatepickerMonthContainer1 folder.
@@ -737,6 +767,45 @@
             </summary>
         </member>
         <member name="M:MyTest3.Null.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest3.Validacion_Final">
+             <summary>
+            The Validacion_Final recording.
+             </summary>
+        </member>
+        <member name="F:MyTest3.Validacion_Final.repo">
+            <summary>
+            Holds an instance of the MyTest3Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest3.Validacion_Final.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest3.Validacion_Final.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTest3.Validacion_Final.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest3.Validacion_Final.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest3.Validacion_Final.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest3.Validacion_Final.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

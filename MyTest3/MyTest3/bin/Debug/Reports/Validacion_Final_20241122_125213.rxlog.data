@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.27s"
+		durationms="7270"
+		type="root"
+		rid="cfb0109da85321a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="22/11/2024 12:52:15"
+		timestampiso="2024-11-22T15:52:15"
+		endtime="22/11/2024 12:52:22"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Validacion_Final">
+		<detail>
+			Validacion_Final
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.544"
+			timeRelativeToTestModuleStartTime="00:05.544"
+			timeWallClock="12:52:20"
+			time="00:05.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ModalContent' at -1;612.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']/body/div[4]/div/div"
+				itempath="body/div[4]/div/div"
+				fullname="MyTest3Repository.ApplicationUnderTest.ModalContent"
+				id="653fd787055944ec8a14c43e86a8a858"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Validacion_Final.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.793"
+			timeRelativeToTestModuleStartTime="00:06.793"
+			timeWallClock="12:52:22"
+			time="00:06.793"
+			level="Warn"
+			category="Click"
+			errimg="images_Validaci_590eaca7\Validaci_5cc3a741_rxlog.jpg"
+			errthumb="images_Validaci_590eaca7\Validaci_5cc3a741_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Validacion_Final.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.189"
+			timeRelativeToTestModuleStartTime="00:07.189"
+			timeWallClock="12:52:22"
+			time="00:07.189"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.ModalContent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']/body/div[4]/div/div"
+				itempath="body/div[4]/div/div"
+				fullname="MyTest3Repository.ApplicationUnderTest.ModalContent"
+				id="653fd787055944ec8a14c43e86a8a858"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Validacion_Final.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.269"
+			timeRelativeToTestModuleStartTime="00:07.269"
+			timeWallClock="12:52:22"
+			time="00:07.269"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ModalContent' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']/body/div[4]/div/div"
+				itempath="body/div[4]/div/div"
+				fullname="MyTest3Repository.ApplicationUnderTest.ModalContent"
+				id="653fd787055944ec8a14c43e86a8a858"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Validacion_Final.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

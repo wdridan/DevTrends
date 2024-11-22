@@ -78,6 +78,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="41af19c9-da1c-4060-8631-752fc39741b0"
+			name="Validacion_Final"
+			ref="3f689ac1-84c2-4a44-bb44-c5fd696e3474"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="42735574-947d-4433-b133-b2179115d626"
 			name="DataNasci"
 			ref="2004ee32-42a4-4084-af5b-43bdaaca2fe7"
@@ -204,6 +210,10 @@
 						id="84ec5b0e-c1fe-4925-8375-4254d2bade95"
 						name="Endereco">
 						</testmodule>
+						<testmodule
+						id="41af19c9-da1c-4060-8631-752fc39741b0"
+						name="Validacion_Final">
+						</testmodule>
 						<teardown
 						id="38f1504e-fdd3-4653-b339-93ce1ae0b756"
 						name="teardown">
@@ -271,7 +281,7 @@
 						wesley.ribeiro@devtrends.com.br
 					</td>
 					<td>
-						+5511970645948
+						0123456789
 					</td>
 					<td>
 						Rua testando testador 123

@@ -287,6 +287,39 @@ name="MyTest3Repository">
 			searchtimeout="30000ms">
 				/dom[@domain='demoqa.com']//button[#'submit']
 			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="a1a79fc7-6540-4c3e-94ec-e34fb9c4ceeb"
+			name="Other"
+			refimgid="1e657c66-e23b-4f61-830e-a7a404b496ed"
+			refpath="/dom[@domain='demoqa.com']//div[#'genterWrapper']/div[2]/div[3]/label[@title='']"
+			robustPath="/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@innertext='Other']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@innertext='Other']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="9b4a237d-60c0-4934-bbaa-e422702572f3"
+			name="Female"
+			refimgid="6e4a2149-3ff0-4816-92e3-55d90dd82b23"
+			refpath="/dom[@domain='demoqa.com']//div[#'genterWrapper']/div[2]/div[2]/label[@title='']"
+			robustPath="/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@innertext='Female']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@innertext='Female']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="653fd787-0559-44ec-8a14-c43e86a8a858"
+			name="ModalContent"
+			refimgid="862a20dd-bbf0-455d-b238-b36b0957853b"
+			refpath="/dom[@domain='demoqa.com']/body/div[4]/div/div"
+			robustPath="/dom[@domain='demoqa.com']/body/div[4]/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']/body/div[4]/div/div
+			</item>
 			<basepath>
 				/dom[@domain='demoqa.com']
 			</basepath>

@@ -231,6 +231,18 @@
       <UserCode>true</UserCode>
       <id>43fb2621-c7be-4c7a-b0c5-f8a87b242005</id>
     </Compile>
+    <Compile Include="Validacion_Final.cs">
+      <BoundTo>cb08eb7b-cb57-413a-9ad3-48b36f79f131</BoundTo>
+      <DependentUpon>Validacion_Final.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb0661e5-8900-4135-9421-d2394835581b</id>
+    </Compile>
+    <Compile Include="Validacion_Final.UserCode.cs">
+      <BoundTo>cb08eb7b-cb57-413a-9ad3-48b36f79f131</BoundTo>
+      <DependentUpon>Validacion_Final.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e6d4637-4154-42d2-b8a4-34222a4b8de8</id>
+    </Compile>
     <Compile Include="Validacion_Pagina.cs">
       <BoundTo>5713f0d5-dca7-418d-bcce-3822780586f0</BoundTo>
       <DependentUpon>Validacion_Pagina.rxrec</DependentUpon>
@@ -310,6 +322,11 @@
       <BoundTo>2fca3013-672b-4d2a-896c-76680b9c8939</BoundTo>
       <id>5f841b04-fdc1-4601-97be-f83c39f57e0c</id>
       <recordtableid>cba6516c-3978-4a69-82e1-dabc37f58b9d</recordtableid>
+    </None>
+    <None Include="Validacion_Final.rxrec">
+      <BoundTo>2fca3013-672b-4d2a-896c-76680b9c8939</BoundTo>
+      <id>cb08eb7b-cb57-413a-9ad3-48b36f79f131</id>
+      <recordtableid>3f689ac1-84c2-4a44-bb44-c5fd696e3474</recordtableid>
     </None>
     <None Include="Validacion_Pagina.rxrec">
       <BoundTo>2fca3013-672b-4d2a-896c-76680b9c8939</BoundTo>

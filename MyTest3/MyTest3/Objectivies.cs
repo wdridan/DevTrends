@@ -90,18 +90,13 @@ namespace MyTest3
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(2));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move at {X=738,Y=641}.", new RecordItemIndex(3));
-            Mouse.MoveTo(738, 641);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.Reading' at Center.", repo.ApplicationUnderTest.ReadingInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Reading.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=738,Y=641}.", new RecordItemIndex(4));
-            Mouse.MoveTo(738, 641);
-            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Reading' at Center.", repo.ApplicationUnderTest.ReadingInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Reading.Click();
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Reading') on item 'ApplicationUnderTest.Reading'.", repo.ApplicationUnderTest.ReadingInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.ReadingInfo, "InnerText", "Reading");
-            Delay.Milliseconds(100);
             
         }
 
