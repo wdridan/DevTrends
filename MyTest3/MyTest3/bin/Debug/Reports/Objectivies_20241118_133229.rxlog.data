@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.78s"
+		durationms="7779"
+		type="root"
+		rid="1feae1a7be79ee48"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:32:31"
+		timestampiso="2024-11-18T16:32:31"
+		endtime="18/11/2024 13:32:39"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Objectivies">
+		<detail>
+			Objectivies
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.701"
+			timeRelativeToTestModuleStartTime="00:04.701"
+			timeWallClock="13:32:36"
+			time="00:04.701"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Css1hwfws3SubjectsAutoCompleteValu' at 76;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'subjectsContainer']/div/div[1]"
+				itempath=".//div[#'subjectsContainer']/div/div[1]"
+				fullname="MyTest3Repository.ApplicationUnderTest.Css1hwfws3SubjectsAutoCompleteValu"
+				id="2716dc6daf82424f9314ca8a8f9678f0"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.412"
+			timeRelativeToTestModuleStartTime="00:06.412"
+			timeWallClock="13:32:37"
+			time="00:06.412"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Testar' with focus on 'ApplicationUnderTest.Css1hwfws3SubjectsAutoCompleteValu'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'subjectsContainer']/div/div[1]"
+				itempath=".//div[#'subjectsContainer']/div/div[1]"
+				fullname="MyTest3Repository.ApplicationUnderTest.Css1hwfws3SubjectsAutoCompleteValu"
+				id="2716dc6daf82424f9314ca8a8f9678f0"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.894"
+			timeRelativeToTestModuleStartTime="00:06.894"
+			timeWallClock="13:32:38"
+			time="00:06.894"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=825,Y=526}.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.197"
+			timeRelativeToTestModuleStartTime="00:07.197"
+			timeWallClock="13:32:38"
+			time="00:07.197"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=825,Y=526}.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.570"
+			timeRelativeToTestModuleStartTime="00:07.570"
+			timeWallClock="13:32:39"
+			time="00:07.570"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Reading') on item 'ApplicationUnderTest.Reading'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'hobbiesWrapper']//label[@innertext='Reading']"
+				itempath=".//div[#'hobbiesWrapper']//label[@innertext='Reading']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Reading"
+				id="ab2e44dcb7974fb581cb0519739b429e"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.673"
+			timeRelativeToTestModuleStartTime="00:07.673"
+			timeWallClock="13:32:39"
+			time="00:07.673"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'MyTest3Repository.ApplicationUnderTest.Reading' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'hobbiesWrapper']//label[@innertext='Reading']"
+				itempath=".//div[#'hobbiesWrapper']//label[@innertext='Reading']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Reading"
+				id="ab2e44dcb7974fb581cb0519739b429e"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="100"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

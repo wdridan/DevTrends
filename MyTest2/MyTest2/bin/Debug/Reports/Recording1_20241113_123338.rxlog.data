@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.41s"
+		durationms="11410"
+		type="root"
+		rid="1889d01ceac4885c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="13/11/2024 12:33:40"
+		timestampiso="2024-11-13T15:33:40"
+		endtime="13/11/2024 12:33:52"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.583"
+			timeRelativeToTestModuleStartTime="00:05.583"
+			timeWallClock="12:33:46"
+			time="00:05.583"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UserName' at 59;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+				itempath=".//input[#'user-name']"
+				fullname="MyTest2Repository.ApplicationUnderTest.UserName"
+				id="efbcf4484c8043bb91bde05a1203f7d3"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.281"
+			timeRelativeToTestModuleStartTime="00:09.281"
+			timeWallClock="12:33:50"
+			time="00:09.281"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_30091856\Recordin_5eb62fd8_rxlog.jpg"
+			errthumb="images_Recordin_30091856\Recordin_5eb62fd8_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.720"
+			timeRelativeToTestModuleStartTime="00:09.720"
+			timeWallClock="12:33:50"
+			time="00:09.720"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'standard_user' with focus on 'ApplicationUnderTest.UserName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+				itempath=".//input[#'user-name']"
+				fullname="MyTest2Repository.ApplicationUnderTest.UserName"
+				id="efbcf4484c8043bb91bde05a1203f7d3"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.103"
+			timeRelativeToTestModuleStartTime="00:10.103"
+			timeWallClock="12:33:50"
+			time="00:10.103"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Password' at 35;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="MyTest2Repository.ApplicationUnderTest.Password"
+				id="349dd508360e4b13b054fba756f0dceb"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.588"
+			timeRelativeToTestModuleStartTime="00:10.588"
+			timeWallClock="12:33:51"
+			time="00:10.588"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '●●●●●●●●●●●●' with focus on 'ApplicationUnderTest.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="MyTest2Repository.ApplicationUnderTest.Password"
+				id="349dd508360e4b13b054fba756f0dceb"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.933"
+			timeRelativeToTestModuleStartTime="00:10.933"
+			timeWallClock="12:33:51"
+			time="00:10.933"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LoginButton' at 50;35.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'login-button']"
+				itempath=".//input[#'login-button']"
+				fullname="MyTest2Repository.ApplicationUnderTest.LoginButton"
+				id="a445b0cc2bb643718eb0fe1afc81d7c4"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

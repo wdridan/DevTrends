@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.15s"
+		durationms="6150"
+		type="root"
+		rid="b77c4aef3b46c49"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="14/11/2024 13:34:55"
+		timestampiso="2024-11-14T16:34:55"
+		endtime="14/11/2024 13:35:01"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.424"
+			timeRelativeToTestModuleStartTime="00:04.424"
+			timeWallClock="13:35:00"
+			time="00:04.424"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.OpenMenu' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//div[#'menu_button_container']/div/div[3]/?/?/button[@innertext='Open Menu']"
+				itempath=".//div[#'menu_button_container']/div/div[3]/?/?/button[@innertext='Open Menu']"
+				fullname="MyTest2Repository.ApplicationUnderTest.OpenMenu"
+				id="87bc26dea05f4bf68073083f6d01bd52"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Logout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

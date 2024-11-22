@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="MyTest2.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="MyTest2.rxtst" />
+    <Element value="Click_Login.rxrec" />
+    <Element value="Interacion_Ventana.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
+    <Element value="UsuarioContrasena_E.rxrec" />
+    <Element value="UsuarioContrasena.rxrec" />
+    <Element value="UsuarioContrasena.cs" />
+    <Element value="Logout.rxrec" />
+    <Element value="Validacion_Login.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

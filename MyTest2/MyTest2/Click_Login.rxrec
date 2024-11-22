@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d6473a9b-1486-47ef-a560-eee2c2fb717d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_Login"
+	namespace="MyTest2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="50;35"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="103ffd54-6fc7-4f5a-a6d9-e06ba860bb9c"
+		sx="642"
+		sy="457"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="572977fd-9696-48ca-98aa-63dbb4f7612a"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='practicetestautomation.com']//button[#'submit']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="4c0f3648-6c59-4434-b200-5970410f60af"
+	name="MyTest2Repository"
+	relativepath="MyTest2Repository.rxrep">
+		<codegen
+		classname="MyTest2Repository"
+		namespace="MyTest2">
+		</codegen>
+		<rootfolder
+		id="d8add5c3-0998-41ef-8d0d-b9babd83cfdc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_Login.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

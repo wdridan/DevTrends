@@ -1,0 +1,12 @@
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\MyTest3.rxtmg
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\MyTest3.rxtst
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\MyTest3.exe.config
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\MyTest3.xml
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\MyTest3.exe
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\MyTest3.pdb
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\obj\x86\Debug\MyTest3.csproj.AssemblyReference.cache
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\obj\x86\Debug\MyTest3.csproj.CoreCompileInputs.cache
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\obj\x86\Debug\MyTest3.csproj.CopyComplete
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\obj\x86\Debug\MyTest3.exe
+C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\obj\x86\Debug\MyTest3.pdb

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.11s"
+		durationms="7108"
+		type="root"
+		rid="1aa0fbb6507bd032"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 12:56:11"
+		timestampiso="2024-11-18T15:56:11"
+		endtime="18/11/2024 12:56:18"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Genero">
+		<detail>
+			Genero
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.757"
+			timeRelativeToTestModuleStartTime="00:04.757"
+			timeWallClock="12:56:15"
+			time="00:04.757"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ActiopSpot
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.767"
+			timeRelativeToTestModuleStartTime="00:04.767"
+			timeWallClock="12:56:15"
+			time="00:04.767"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=741,Y=430}.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.077"
+			timeRelativeToTestModuleStartTime="00:05.077"
+			timeWallClock="12:56:16"
+			time="00:05.077"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=741,Y=430}.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.461"
+			timeRelativeToTestModuleStartTime="00:05.461"
+			timeWallClock="12:56:16"
+			time="00:05.461"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=776,Y=431}.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.764"
+			timeRelativeToTestModuleStartTime="00:05.764"
+			timeWallClock="12:56:16"
+			time="00:05.764"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Male') on item 'ApplicationUnderTest.Male'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@title='']"
+				itempath=".//div[#'genterWrapper']//label[@title='']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Male"
+				id="ee6091be4d854c7b9505a2e00dccb01f"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="108"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.001"
+			timeRelativeToTestModuleStartTime="00:07.001"
+			timeWallClock="12:56:18"
+			time="00:07.001"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'MyTest3Repository.ApplicationUnderTest.Male' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@title='']"
+				itempath=".//div[#'genterWrapper']//label[@title='']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Male"
+				id="ee6091be4d854c7b9505a2e00dccb01f"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

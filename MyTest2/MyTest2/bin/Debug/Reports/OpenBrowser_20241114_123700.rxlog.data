@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.6s"
+		durationms="5599"
+		type="root"
+		rid="687498497dd50f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="14/11/2024 12:37:02"
+		timestampiso="2024-11-14T15:37:02"
+		endtime="14/11/2024 12:37:08"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.490"
+			timeRelativeToTestModuleStartTime="00:05.490"
+			timeWallClock="12:37:08"
+			time="00:05.490"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.saucedemo.com/v1/index.html' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

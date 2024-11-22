@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="31.57s"
+		durationms="31567"
+		type="root"
+		rid="14978b7130c16b4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:08:16"
+		timestampiso="2024-11-18T16:08:16"
+		endtime="18/11/2024 13:08:47"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="DataNasci">
+		<detail>
+			DataNasci
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.010"
+			timeRelativeToTestModuleStartTime="00:28.010"
+			timeWallClock="13:08:44"
+			time="00:28.010"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerYearSelect' at 43;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select"
+				itempath="div[1]/div[2]/div[2]/select"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerYearSelect"
+				id="457bdd196c304e58ac27d18d8230c1eb"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="82"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.786"
+			timeRelativeToTestModuleStartTime="00:29.786"
+			timeWallClock="13:08:45"
+			time="00:29.786"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Dropdown' at 46;277.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				itempath="/container[@caption='dropdown']"
+				fullname="MyTest3Repository.Dropdown.Self"
+				id="90e8d0aa173e43b780b08c1390e02081"
+				timeout="15000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="86"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.185"
+			timeRelativeToTestModuleStartTime="00:30.185"
+			timeWallClock="13:08:46"
+			time="00:30.185"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Dropdown' at 45;193.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				itempath="/container[@caption='dropdown']"
+				fullname="MyTest3Repository.Dropdown.Self"
+				id="90e8d0aa173e43b780b08c1390e02081"
+				timeout="15000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="91"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.497"
+			timeRelativeToTestModuleStartTime="00:30.497"
+			timeWallClock="13:08:46"
+			time="00:30.497"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Dropdown' at 19;205.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/container[@caption='dropdown']"
+				itempath="/container[@caption='dropdown']"
+				fullname="MyTest3Repository.Dropdown.Self"
+				id="90e8d0aa173e43b780b08c1390e02081"
+				timeout="15000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="96"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.866"
+			timeRelativeToTestModuleStartTime="00:30.866"
+			timeWallClock="13:08:47"
+			time="00:30.866"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '3' on item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthSelect'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/?/?/select"
+				itempath="div[1]/div[2]/?/?/select"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthSelect"
+				id="cfb9b76db2c04acfb590923975b74768"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="100"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.008"
+			timeRelativeToTestModuleStartTime="00:31.008"
+			timeWallClock="13:08:47"
+			time="00:31.008"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.DivTag23' at 11;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[@innertext='23']"
+				itempath="div[2]/div[4]/div[@innertext='23']"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.DivTag23"
+				id="1e02e23e3510464796d1c9c334fea916"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="104"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

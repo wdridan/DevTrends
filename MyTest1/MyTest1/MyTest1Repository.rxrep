@@ -1,0 +1,87 @@
+﻿<repository
+id="74ba10c5-d659-43f1-b0c7-c72fff820c4b"
+name="MyTest1Repository">
+	<codegen
+	classname="MyTest1Repository"
+	namespace="MyTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="baae2832-98ca-4bf4-81ed-f1d7a1154c03"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a6fa0063-7074-4d2b-9b7e-9ccae3c10033"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="ce7ce003-5ebd-482e-8be5-0b5f226d8c22"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.saucedemo.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e0f102f1-c7c9-48b4-bc22-625f4a454fb6"
+		isrooted="True"
+		name="Explorer"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="cdf533dc-2f56-4cdd-90fc-2a75a83e4dad"
+			name="MyTest1RanorexStudio32bit"
+			refimgid="59e93fa7-9369-44e4-8da3-9b7a70100596"
+			refpath="/form[@title='']/list[@accessiblename='Alternador de Tarefas']/listitem[@accessiblename='MyTest1 - Ranorex Studio - (32bit)']"
+			robustPath="/form[@title='']/?/?/listitem[@accessiblename>'MyTest1 - Ranorex Studio -']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/listitem[@accessiblename&gt;'MyTest1 - Ranorex Studio -']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJmSURBVDhPpZNZSJRRGIZ/zDVxdDQvAi+MIPAi
+sJKUciuXXHJrj6iLAivCLK1spRJbTZLsJrL0LgpMKYRxTc21mdFxxm10dPSiu5YJIk2d/+nM+BMl
+RlAfPHfv856PczjSf89khVQpYAls1gopU4n9eZYQf8VREqpElx7rU4mJv+DILC63PpEYL5cqJW2p
+RH2RRN0i9OXB2Lr2gTkHRo7C0BEYPAim/WDcCf3p2HXxSPbxQpi6DZNFYL0G45fAUgBjeTCcLQRR
+0p/pFDCkQl8y9CaCPl6wFQnLORE8vNA+eAAGhGDas3CKMUsRtyviNsGCiC4GtFGiYOiQIorVHKJp
+lyJmKGKKIEmICYoYK8RoeLcZuSdcFDjEgb1OUe7fgWzIRO5LE6Qi9yYh6xORdXHI2i0CIWojhRiB
+3B2GvTNUFJh2O9ed683gfWMio69iMddEY66OxPxykyBcsBFzVRiW6vV8ad7AfOc67B1rmW8PEQVi
+XdmQzpQmjtzHJawos/4k4MEEAaUW/O+PoS4ZRV08Qv6jq3xtDmGubQ1zratFgSENuz6ZwapIZ9Df
+Ebxnxu/uMH53hvC9NYjvTROqIiM+hQZ8rvfxWbOK2ZZgZpuDRIG4ILsuAdOLCBEcQHXDiDrrIeqU
+4t/wyyxj+cUevM538ak2iO9NK5lpCBQF4lns4oJMz8PwvqLD+7J2IXihG6+CTjzPduBxph2PvDbc
+T7filtvCx9eBzNT7M12nEgW6GJu9JwrTs1A8HcH8t86g+6kW3E6+wTWnCdcTjSw73oDLsTpcsjV8
+qFExrfHmW62nTfkR/zqS9AO8TjrQA/nv0AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

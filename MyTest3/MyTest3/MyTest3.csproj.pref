@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="MyTest3.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="MyTest3.rxtst" />
+    <Element value="Endereco.rxrec" />
+    <Element value="Genero.rxrec" />
+    <Element value="Validacion_Pagina.rxrec" />
+    <Element value="Name_Email.rxrec" />
+    <Element value="Objectivies.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.66s"
+		durationms="7661"
+		type="root"
+		rid="1aae8ab494a9b0e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="14/11/2024 12:42:46"
+		timestampiso="2024-11-14T15:42:46"
+		endtime="14/11/2024 12:42:54"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="UsuarioContrasena">
+		<detail>
+			UsuarioContrasena
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.260"
+			timeRelativeToTestModuleStartTime="00:05.260"
+			timeWallClock="12:42:51"
+			time="00:05.260"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>usuario, contrasena
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.272"
+			timeRelativeToTestModuleStartTime="00:05.272"
+			timeWallClock="12:42:51"
+			time="00:05.272"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UserName' at 59;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+				itempath=".//input[#'user-name']"
+				fullname="MyTest2Repository.ApplicationUnderTest.UserName"
+				id="efbcf4484c8043bb91bde05a1203f7d3"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.956"
+			timeRelativeToTestModuleStartTime="00:06.956"
+			timeWallClock="12:42:53"
+			time="00:06.956"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$usuario' with focus on 'ApplicationUnderTest.UserName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+				itempath=".//input[#'user-name']"
+				fullname="MyTest2Repository.ApplicationUnderTest.UserName"
+				id="efbcf4484c8043bb91bde05a1203f7d3"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.082"
+			timeRelativeToTestModuleStartTime="00:07.082"
+			timeWallClock="12:42:53"
+			time="00:07.082"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Password' at 35;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="MyTest2Repository.ApplicationUnderTest.Password"
+				id="349dd508360e4b13b054fba756f0dceb"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.561"
+			timeRelativeToTestModuleStartTime="00:07.561"
+			timeWallClock="12:42:53"
+			time="00:07.561"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$contrasena' with focus on 'ApplicationUnderTest.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'password']"
+				itempath=".//input[#'password']"
+				fullname="MyTest2Repository.ApplicationUnderTest.Password"
+				id="349dd508360e4b13b054fba756f0dceb"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

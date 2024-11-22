@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="35.4s"
+		durationms="35404"
+		type="root"
+		rid="c58d9684664a285"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="13/11/2024 14:01:48"
+		timestampiso="2024-11-13T17:01:48"
+		endtime="13/11/2024 14:02:23"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="UsuarioContrasena">
+		<detail>
+			UsuarioContrasena
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest2Repository.ApplicationUnderTest.UserName'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.874"
+			timeRelativeToTestModuleStartTime="00:04.874"
+			timeWallClock="14:01:53"
+			time="00:04.874"
+			level="Info"
+			category="Mouse"
+			errimg="images_UsuarioC_d4a677ed\UsuarioC_d4a677ed_d6cdff6f_trace.jpg"
+			errthumb="images_UsuarioC_d4a677ed\UsuarioC_d4a677ed_d6cdff6f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UserName' at 59;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+				itempath=".//input[#'user-name']"
+				fullname="MyTest2Repository.ApplicationUnderTest.UserName"
+				id="efbcf4484c8043bb91bde05a1203f7d3"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.215"
+			timeRelativeToTestModuleStartTime="00:35.215"
+			timeWallClock="14:02:23"
+			time="00:35.215"
+			level="Info"
+			category="User"
+			errimg="images_UsuarioC_d4a677ed\UsuarioC_d4a677ed_67208007_trace.jpg"
+			errthumb="images_UsuarioC_d4a677ed\UsuarioC_d4a677ed_67208007_trace_thumb.jpg">
+			<message>
+				Item 'UserName' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.302"
+			timeRelativeToTestModuleStartTime="00:35.302"
+			timeWallClock="14:02:23"
+			time="00:35.302"
+			level="Error"
+			category="Module"
+			errimg="images_UsuarioC_d4a677ed\UsuarioC_d4a677ed_8dcd096f_trace.jpg"
+			errthumb="images_UsuarioC_d4a677ed\UsuarioC_d4a677ed_8dcd096f_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest2Repository.ApplicationUnderTest.UserName'.<br/>No element found for path '/dom[@domain='www.saucedemo.com']//input[#'user-name']' at step 'descendant-or-self::input[#'user-name']' after 118 attempts within 30s (timeout factor = 0,5).
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   em Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   em Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   em MyTest2.MyTest2RepositoryFolders.ApplicationUnderTestAppFolder.get_UserName() na C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\MyTest2Repository.cs:linha 158&#13;&#10;   em MyTest2.UsuarioContrasena.Ranorex.Core.Testing.ITestModule.Run() na C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs:linha 83&#13;&#10;   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']//input[#'user-name']"
+				itempath=".//input[#'user-name']"
+				fullname="MyTest2Repository.ApplicationUnderTest.UserName"
+				id="efbcf4484c8043bb91bde05a1203f7d3"
+				timeout="30000"
+				failedStep="descendant-or-self::input[#'user-name']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

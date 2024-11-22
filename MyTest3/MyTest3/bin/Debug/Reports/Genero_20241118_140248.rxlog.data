@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.87s"
+		durationms="6871"
+		type="root"
+		rid="3ccac0e066d98492"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 14:02:50"
+		timestampiso="2024-11-18T17:02:50"
+		endtime="18/11/2024 14:02:57"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Genero">
+		<detail>
+			Genero
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.521"
+			timeRelativeToTestModuleStartTime="00:04.521"
+			timeWallClock="14:02:55"
+			time="00:04.521"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=739,Y=488}.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.835"
+			timeRelativeToTestModuleStartTime="00:04.835"
+			timeWallClock="14:02:55"
+			time="00:04.835"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=739,Y=488}.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.213"
+			timeRelativeToTestModuleStartTime="00:05.213"
+			timeWallClock="14:02:55"
+			time="00:05.213"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=739,Y=488}.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="91"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.525"
+			timeRelativeToTestModuleStartTime="00:05.525"
+			timeWallClock="14:02:56"
+			time="00:05.525"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Male') on item 'ApplicationUnderTest.Male'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@title='']"
+				itempath=".//div[#'genterWrapper']//label[@title='']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Male"
+				id="ee6091be4d854c7b9505a2e00dccb01f"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.764"
+			timeRelativeToTestModuleStartTime="00:06.764"
+			timeWallClock="14:02:57"
+			time="00:06.764"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'MyTest3Repository.ApplicationUnderTest.Male' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'genterWrapper']//label[@title='']"
+				itempath=".//div[#'genterWrapper']//label[@title='']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Male"
+				id="ee6091be4d854c7b9505a2e00dccb01f"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.58s"
+		durationms="5583"
+		type="root"
+		rid="15ac1d4416077680"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="13/11/2024 12:44:10"
+		timestampiso="2024-11-13T15:44:10"
+		endtime="13/11/2024 12:44:15"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.194"
+			timeRelativeToTestModuleStartTime="00:05.194"
+			timeWallClock="12:44:15"
+			time="00:05.194"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=1132,Y=366}.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

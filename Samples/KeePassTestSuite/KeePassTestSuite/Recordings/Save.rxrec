@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="342e8ee7-c0da-4bb8-bc84-0dddc067b9e0"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Save"
+	namespace="KeePassTestSuite.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5d8a22fc-527d-46c5-9c17-718ccd713210"
+		sx="-1044"
+		sy="291"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b7ad1373-4828-4d6d-8ba7-59d5eac6905e"
+			sourcename="Recorder">
+				<path>
+					/form[@controlname='MainForm']/?/?/button[@name='Save Database']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="550de26a-9cec-4a8c-862c-5b3a773f0132"
+	name="KeePassTestSuiteRepository"
+	relativepath="..\KeePassTestSuiteRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="KeePassTestSuiteRepository"
+		namespace="KeePassTestSuite">
+		</codegen>
+		<rootfolder
+		id="0e2cdd23-dd72-4d10-b662-4933e627b6fb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Save.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3c797d8f-da95-467d-a0d7-04a30ce08de1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validacion_Login"
+	namespace="MyTest2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6f5f48f6-839f-45af-9723-e526eff6b3ab"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a0f00ad8-7085-4c29-8840-8720f49b65f2"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="110,216,122,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						product_label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Products
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						product_label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.saucedemo.com']//div[#'inventory_filter_container']/div[@innertext='Products']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="0186397c-a716-4e12-a38e-22af0e178011">
+				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
+LRRQAUUUUAFFFFAH/9k=
+			</helperscreenshot>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="4c0f3648-6c59-4434-b200-5970410f60af"
+	name="MyTest2Repository"
+	relativepath="MyTest2Repository.rxrep">
+		<codegen
+		classname="MyTest2Repository"
+		namespace="MyTest2">
+		</codegen>
+		<rootfolder
+		id="d8add5c3-0998-41ef-8d0d-b9babd83cfdc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validacion_Login.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

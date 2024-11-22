@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.83s"
+		durationms="26832"
+		type="root"
+		rid="7be331eb7a531a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:59:36"
+		timestampiso="2024-11-18T16:59:36"
+		endtime="18/11/2024 14:00:03"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Endereco">
+		<detail>
+			Endereco
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.459"
+			timeRelativeToTestModuleStartTime="00:04.459"
+			timeWallClock="13:59:40"
+			time="00:04.459"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Adress
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.471"
+			timeRelativeToTestModuleStartTime="00:04.471"
+			timeWallClock="13:59:40"
+			time="00:04.471"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Css1hwfws3' at LowerLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'state']/div/div[1]"
+				itempath=".//div[#'state']/div/div[1]"
+				fullname="MyTest3Repository.ApplicationUnderTest.Css1hwfws3"
+				id="46b76dcd65d94845a0c97184480b4b2a"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="95"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.124"
+			timeRelativeToTestModuleStartTime="00:06.124"
+			timeWallClock="13:59:42"
+			time="00:06.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Rajasthan' at LowerLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'state']//div[@innertext='Rajasthan']"
+				itempath=".//div[#'state']//div[@innertext='Rajasthan']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Rajasthan"
+				id="f5f57635056442a4901d7c264eb6c724"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="99"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.650"
+			timeRelativeToTestModuleStartTime="00:06.650"
+			timeWallClock="13:59:43"
+			time="00:06.650"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CssTlfeczIndicatorContainer' at LowerLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'city']/div/div[2]/div"
+				itempath=".//div[#'city']/div/div[2]/div"
+				fullname="MyTest3Repository.ApplicationUnderTest.CssTlfeczIndicatorContainer"
+				id="f15cf22188eb45a39ddba6ce2dd2c1c1"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="103"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.324"
+			timeRelativeToTestModuleStartTime="00:07.324"
+			timeWallClock="13:59:43"
+			time="00:07.324"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Jaiselmer' at LowerLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'city']//div[@innertext='Jaiselmer']"
+				itempath=".//div[#'city']//div[@innertext='Jaiselmer']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Jaiselmer"
+				id="8cbac9c91626433f891ca23b61dad608"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="107"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.831"
+			timeRelativeToTestModuleStartTime="00:26.831"
+			timeWallClock="14:00:03"
+			time="00:26.831"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

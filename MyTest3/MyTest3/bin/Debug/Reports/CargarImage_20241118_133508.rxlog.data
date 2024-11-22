@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.28s"
+		durationms="8281"
+		type="root"
+		rid="19aa8421416aa1e3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:35:10"
+		timestampiso="2024-11-18T16:35:10"
+		endtime="18/11/2024 13:35:18"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="CargarImage">
+		<detail>
+			CargarImage
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.730"
+			timeRelativeToTestModuleStartTime="00:04.730"
+			timeWallClock="13:35:15"
+			time="00:04.730"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UploadPicture' at 79;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'uploadPicture']"
+				itempath=".//input[#'uploadPicture']"
+				fullname="MyTest3Repository.ApplicationUnderTest.UploadPicture"
+				id="836aa537876b463286e97aaa51bf1619"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.860"
+			timeRelativeToTestModuleStartTime="00:05.860"
+			timeWallClock="13:35:16"
+			time="00:05.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Abrir.SystemItemNameDisplay' at 44;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Abrir']/element[@class='DUIViewWndClassName']//container[@automationid='0']/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				itempath="element[@class='DUIViewWndClassName']//container[@automationid='0']/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+				fullname="MyTest3Repository.Abrir.SystemItemNameDisplay"
+				id="6957c9a5e59a4a399b604993a000b0a9"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.353"
+			timeRelativeToTestModuleStartTime="00:07.353"
+			timeWallClock="13:35:18"
+			time="00:07.353"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Abrir.ButtonAbrir' at 39;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Abrir']/button[@text='&amp;Abrir']"
+				itempath="button[@text='&amp;Abrir']"
+				fullname="MyTest3Repository.Abrir.ButtonAbrir"
+				id="5d047378d00f42d784f1c7d610a917ee"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.826"
+			timeRelativeToTestModuleStartTime="00:07.826"
+			timeWallClock="13:35:18"
+			time="00:07.826"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (TagValue='C:\fakepath\Perro.png') on item 'ApplicationUnderTest.UploadPicture'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'uploadPicture']"
+				itempath=".//input[#'uploadPicture']"
+				fullname="MyTest3Repository.ApplicationUnderTest.UploadPicture"
+				id="836aa537876b463286e97aaa51bf1619"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.991"
+			timeRelativeToTestModuleStartTime="00:07.991"
+			timeWallClock="13:35:18"
+			time="00:07.991"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'TagValue' of element for item 'MyTest3Repository.ApplicationUnderTest.UploadPicture' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'uploadPicture']"
+				itempath=".//input[#'uploadPicture']"
+				fullname="MyTest3Repository.ApplicationUnderTest.UploadPicture"
+				id="836aa537876b463286e97aaa51bf1619"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.098"
+			timeRelativeToTestModuleStartTime="00:08.098"
+			timeWallClock="13:35:18"
+			time="00:08.098"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Value='C:\fakepath\Perro.png') on item 'ApplicationUnderTest.UploadPicture'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'uploadPicture']"
+				itempath=".//input[#'uploadPicture']"
+				fullname="MyTest3Repository.ApplicationUnderTest.UploadPicture"
+				id="836aa537876b463286e97aaa51bf1619"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.175"
+			timeRelativeToTestModuleStartTime="00:08.175"
+			timeWallClock="13:35:18"
+			time="00:08.175"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Value' of element for item 'MyTest3Repository.ApplicationUnderTest.UploadPicture' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'uploadPicture']"
+				itempath=".//input[#'uploadPicture']"
+				fullname="MyTest3Repository.ApplicationUnderTest.UploadPicture"
+				id="836aa537876b463286e97aaa51bf1619"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\CargarImage.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

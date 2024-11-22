@@ -26,7 +26,7 @@ mode="Desktop">
 	</variables>
 	<recorditems>
 		<mouseitem
-		action="Click"
+		action="Down"
 		button="Left"
 		duration="300ms"
 		enabled="True"
@@ -43,7 +43,7 @@ mode="Desktop">
 			</bindings>
 		</mouseitem>
 		<mouseitem
-		action="Click"
+		action="DoubleClick"
 		button="Left"
 		duration="300ms"
 		enabled="True"

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="34.93s"
+		durationms="34930"
+		type="root"
+		rid="472972ae33f158f"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="13/11/2024 13:00:37"
+		timestampiso="2024-11-13T16:00:37"
+		endtime="13/11/2024 13:01:12"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Attribute 'Visible' of element for item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB' does not match the specified value (Failed to find item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB'. No element found for path '/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' at step 'descendant-or-self::img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' after 124 attempts within 30s (timeout factor = 0,5).).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.697"
+			timeRelativeToTestModuleStartTime="00:04.697"
+			timeWallClock="13:00:42"
+			time="00:04.697"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				itempath="body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				fullname="MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB"
+				id="7b6bc0ff88b84af08195b9b50b06eb81"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="82"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.785"
+			timeRelativeToTestModuleStartTime="00:34.785"
+			timeWallClock="13:01:12"
+			time="00:34.785"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_e739a005\Recordin_e739a005_928d1989_trace.jpg"
+			errthumb="images_Recordin_e739a005\Recordin_e739a005_928d1989_trace_thumb.jpg">
+			<message>
+				Item 'HttpsWwwSaucedemoComV1ImgLoginB' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.859"
+			timeRelativeToTestModuleStartTime="00:34.859"
+			timeWallClock="13:01:12"
+			time="00:34.859"
+			level="Failure"
+			category="Validation"
+			errimg="images_Recordin_e739a005\Recordin_e739a005_a4e2c8ad_trace.jpg"
+			errthumb="images_Recordin_e739a005\Recordin_e739a005_a4e2c8ad_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB' does not match the specified value (Failed to find item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB'. No element found for path '/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' at step 'descendant-or-self::img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' after 124 attempts within 30s (timeout factor = 0,5).).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				itempath="body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				fullname="MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB"
+				id="7b6bc0ff88b84af08195b9b50b06eb81"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="83"
+				failedStep="descendant-or-self::img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				bestPathPrefix=""
+				loglvl="Failure"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.863"
+			timeRelativeToTestModuleStartTime="00:34.863"
+			timeWallClock="13:01:12"
+			time="00:34.863"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_e739a005\Recordin_e739a005_a4e2c8ad_trace.jpg"
+			errthumb="images_Recordin_e739a005\Recordin_e739a005_a4e2c8ad_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB' does not match the specified value (Failed to find item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB'. No element found for path '/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' at step 'descendant-or-self::img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' after 124 attempts within 30s (timeout factor = 0,5).).<br/>Failed to find item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB'.<br/>No element found for path '/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' at step 'descendant-or-self::img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']' after 124 attempts within 30s (timeout factor = 0,5).
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   em Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   em Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   em Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   em Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   em MyTest2.Recording2.Ranorex.Core.Testing.ITestModule.Run() na C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs:linha 83
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				itempath="body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				fullname="MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB"
+				id="7b6bc0ff88b84af08195b9b50b06eb81"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

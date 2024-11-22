@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.34s"
+		durationms="5341"
+		type="root"
+		rid="b5c2e5bf1115ef8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="13/11/2024 13:57:58"
+		timestampiso="2024-11-13T16:57:58"
+		endtime="13/11/2024 13:58:03"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="UsuarioContrasena">
+		<detail>
+			UsuarioContrasena
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.955"
+			timeRelativeToTestModuleStartTime="00:04.955"
+			timeWallClock="13:58:03"
+			time="00:04.955"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=651,Y=311}.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\UsuarioContrasena.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

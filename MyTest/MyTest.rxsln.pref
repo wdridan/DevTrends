@@ -11,6 +11,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest[MyTest[]]]&#xD;&#xA;Solution MyTest&#xD;&#xA;Solution MyTest" />
+  <ProjectBrowserState value="[Solution MyTest[MyTest[]]]&#xD;&#xA;Solution MyTest\MyTest\Recording1.rxrec&#xD;&#xA;Solution MyTest" />
   <StartupProject value="{6A00616F-AF2C-43E2-BB1D-3950D1FC28D2}" />
 </Properties>

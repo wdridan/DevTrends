@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="OpenBrowser.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="MyTest1.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.95s"
+		durationms="12950"
+		type="root"
+		rid="283b38e077811617"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:16:11"
+		timestampiso="2024-11-18T16:16:11"
+		endtime="18/11/2024 13:16:24"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="DataNasci">
+		<detail>
+			DataNasci
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.462"
+			timeRelativeToTestModuleStartTime="00:04.462"
+			timeWallClock="13:16:16"
+			time="00:04.462"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.DateOfBirthInput' at 109;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'dateOfBirthInput']"
+				itempath=".//input[#'dateOfBirthInput']"
+				fullname="MyTest3Repository.ApplicationUnderTest.DateOfBirthInput"
+				id="9ad0acaf160b42c5bf357498571928b7"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.734"
+			timeRelativeToTestModuleStartTime="00:07.734"
+			timeWallClock="13:16:19"
+			time="00:07.734"
+			level="Warn"
+			category="Click"
+			errimg="images_DataNasc_a7153970\DataNasc_e66b221d_rxlog.jpg"
+			errthumb="images_DataNasc_a7153970\DataNasc_e66b221d_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.374"
+			timeRelativeToTestModuleStartTime="00:08.374"
+			timeWallClock="13:16:20"
+			time="00:08.374"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.378"
+			timeRelativeToTestModuleStartTime="00:10.378"
+			timeWallClock="13:16:22"
+			time="00:10.378"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]"
+				itempath=""
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer"
+				id="bf6df19639bf45d391c9a6b3100f9a5e"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.482"
+			timeRelativeToTestModuleStartTime="00:10.482"
+			timeWallClock="13:16:22"
+			time="00:10.482"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Valid' of element for item 'MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]"
+				itempath=""
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer"
+				id="bf6df19639bf45d391c9a6b3100f9a5e"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="90"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.588"
+			timeRelativeToTestModuleStartTime="00:10.588"
+			timeWallClock="13:16:22"
+			time="00:10.588"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]"
+				itempath=""
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer"
+				id="bf6df19639bf45d391c9a6b3100f9a5e"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.679"
+			timeRelativeToTestModuleStartTime="00:10.679"
+			timeWallClock="13:16:22"
+			time="00:10.679"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]"
+				itempath=""
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer"
+				id="bf6df19639bf45d391c9a6b3100f9a5e"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="94"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.784"
+			timeRelativeToTestModuleStartTime="00:10.784"
+			timeWallClock="13:16:22"
+			time="00:10.784"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (SafeClass='react-datepicker__month-container') on item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]"
+				itempath=""
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer"
+				id="bf6df19639bf45d391c9a6b3100f9a5e"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.883"
+			timeRelativeToTestModuleStartTime="00:10.883"
+			timeWallClock="13:16:22"
+			time="00:10.883"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'SafeClass' of element for item 'MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]"
+				itempath=""
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthContainer"
+				id="bf6df19639bf45d391c9a6b3100f9a5e"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="98"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.990"
+			timeRelativeToTestModuleStartTime="00:10.990"
+			timeWallClock="13:16:22"
+			time="00:10.990"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerYearSelect' at 43;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select"
+				itempath="div[1]/div[2]/div[2]/select"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerYearSelect"
+				id="457bdd196c304e58ac27d18d8230c1eb"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.562"
+			timeRelativeToTestModuleStartTime="00:11.562"
+			timeWallClock="13:16:23"
+			time="00:11.562"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '1991' on item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerYearSelect'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select"
+				itempath="div[1]/div[2]/div[2]/select"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerYearSelect"
+				id="457bdd196c304e58ac27d18d8230c1eb"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.719"
+			timeRelativeToTestModuleStartTime="00:11.719"
+			timeWallClock="13:16:23"
+			time="00:11.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthSelect' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/?/?/select"
+				itempath="div[1]/div[2]/?/?/select"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthSelect"
+				id="cfb9b76db2c04acfb590923975b74768"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.277"
+			timeRelativeToTestModuleStartTime="00:12.277"
+			timeWallClock="13:16:24"
+			time="00:12.277"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '5' on item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthSelect'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/?/?/select"
+				itempath="div[1]/div[2]/?/?/select"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.ReactDatepickerMonthSelect"
+				id="cfb9b76db2c04acfb590923975b74768"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.398"
+			timeRelativeToTestModuleStartTime="00:12.398"
+			timeWallClock="13:16:24"
+			time="00:12.398"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ReactDatepickerMonthContainer1.DivTag14' at 11;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'dateOfBirth']/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[@innertext='14']"
+				itempath="div[2]/div[3]/div[@innertext='14']"
+				fullname="MyTest3Repository.ApplicationUnderTest.ReactDatepickerMonthContainer1.DivTag14"
+				id="b61a2209038844a599a1fac57879c225"
+				timeout="45000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\DataNasci.cs"
+				codeline="117"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

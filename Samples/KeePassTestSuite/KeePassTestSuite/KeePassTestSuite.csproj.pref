@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="KeePassTestSuite.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="KeePassTestSuite.rxtst" />
+    <Element value="Recordings\AddEntry.rxrec" />
+    <Element value="Recordings\ValidateEntry.rxrec" />
+    <Element value="Recordings\DeleteEntry.rxrec" />
+    <Element value="Recordings\AddEntryByUserCodeAction.rxrec" />
+    <Element value="KeePassTestSuite.rxtmg" />
+    <Element value="Recordings\StartSUT.rxrec" />
+    <Element value="Recordings\AddGroup.rxrec" />
+    <Element value="Recordings\ValidateGroup.rxrec" />
+    <Element value="Recordings\DeleteGroup.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

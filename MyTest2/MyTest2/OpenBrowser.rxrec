@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8a3c1f79-05b1-4dfa-a999-7ba5ed583fdd"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="MyTest2">
+	</codegen>
+	<variables>
+		<var
+		id="4becc0ba-64fc-4bd8-a851-2312a121fe8c"
+		name="WebDocument">
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Url"
+				variable="WebDocument">
+				</binding>
+			</bindings>
+			<url>
+				https://practicetestautomation.com/practice-test-login/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="4c0f3648-6c59-4434-b200-5970410f60af"
+	name="MyTest2Repository"
+	relativepath="MyTest2Repository.rxrep">
+		<codegen
+		classname="MyTest2Repository"
+		namespace="MyTest2">
+		</codegen>
+		<rootfolder
+		id="d8add5c3-0998-41ef-8d0d-b9babd83cfdc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

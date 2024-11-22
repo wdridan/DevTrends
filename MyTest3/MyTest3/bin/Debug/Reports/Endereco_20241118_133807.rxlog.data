@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.4s"
+		durationms="20398"
+		type="root"
+		rid="e63ac97285b4466"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:38:09"
+		timestampiso="2024-11-18T16:38:09"
+		endtime="18/11/2024 13:38:29"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Endereco">
+		<detail>
+			Endereco
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.020"
+			timeRelativeToTestModuleStartTime="00:06.020"
+			timeWallClock="13:38:15"
+			time="00:06.020"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CurrentAddress' at 83;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//textarea[#'currentAddress']"
+				itempath=".//textarea[#'currentAddress']"
+				fullname="MyTest3Repository.ApplicationUnderTest.CurrentAddress"
+				id="4a4b929c7b274875b5a920dc697f2258"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.713"
+			timeRelativeToTestModuleStartTime="00:07.713"
+			timeWallClock="13:38:17"
+			time="00:07.713"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Css1hwfws3' at 148;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'state']/div/div[1]"
+				itempath=".//div[#'state']/div/div[1]"
+				fullname="MyTest3Repository.ApplicationUnderTest.Css1hwfws3"
+				id="46b76dcd65d94845a0c97184480b4b2a"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.254"
+			timeRelativeToTestModuleStartTime="00:08.254"
+			timeWallClock="13:38:17"
+			time="00:08.254"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Escape}' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Self"
+				id="3eadc4c882e746a9ae53233a041d1c04"
+				timeout="15000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.521"
+			timeRelativeToTestModuleStartTime="00:08.521"
+			timeWallClock="13:38:18"
+			time="00:08.521"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Rajasthan' at 94;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'state']//div[@innertext='Rajasthan']"
+				itempath=".//div[#'state']//div[@innertext='Rajasthan']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Rajasthan"
+				id="f5f57635056442a4901d7c264eb6c724"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.493"
+			timeRelativeToTestModuleStartTime="00:17.493"
+			timeWallClock="13:38:27"
+			time="00:17.493"
+			level="Warn"
+			category="Click"
+			errimg="images_Endereco_266f858d\Endereco_64809f41_rxlog.jpg"
+			errthumb="images_Endereco_266f858d\Endereco_64809f41_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="96"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.927"
+			timeRelativeToTestModuleStartTime="00:17.927"
+			timeWallClock="13:38:27"
+			time="00:17.927"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CssTlfeczIndicatorContainer' at 3;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'city']/div/div[2]/div"
+				itempath=".//div[#'city']/div/div[2]/div"
+				fullname="MyTest3Repository.ApplicationUnderTest.CssTlfeczIndicatorContainer"
+				id="f15cf22188eb45a39ddba6ce2dd2c1c1"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.476"
+			timeRelativeToTestModuleStartTime="00:18.476"
+			timeWallClock="13:38:27"
+			time="00:18.476"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Escape}' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Self"
+				id="3eadc4c882e746a9ae53233a041d1c04"
+				timeout="15000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.762"
+			timeRelativeToTestModuleStartTime="00:18.762"
+			timeWallClock="13:38:28"
+			time="00:18.762"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Jaiselmer' at 57;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'city']//div[@innertext='Jaiselmer']"
+				itempath=".//div[#'city']//div[@innertext='Jaiselmer']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Jaiselmer"
+				id="8cbac9c91626433f891ca23b61dad608"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.296"
+			timeRelativeToTestModuleStartTime="00:19.296"
+			timeWallClock="13:38:28"
+			time="00:19.296"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Escape}' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Self"
+				id="3eadc4c882e746a9ae53233a041d1c04"
+				timeout="15000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.551"
+			timeRelativeToTestModuleStartTime="00:19.551"
+			timeWallClock="13:38:29"
+			time="00:19.551"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Submit' at 34;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//button[#'submit']"
+				itempath=".//button[#'submit']"
+				fullname="MyTest3Repository.ApplicationUnderTest.Submit"
+				id="4fb35747173948e1a05547eee10fc774"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="117"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.088"
+			timeRelativeToTestModuleStartTime="00:20.088"
+			timeWallClock="13:38:29"
+			time="00:20.088"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by 240 units.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Endereco.cs"
+				codeline="121"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

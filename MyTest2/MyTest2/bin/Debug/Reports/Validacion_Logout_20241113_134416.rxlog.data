@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.62s"
+		durationms="12621"
+		type="root"
+		rid="39cd82aa10a5552a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="13/11/2024 13:44:18"
+		timestampiso="2024-11-13T16:44:18"
+		endtime="13/11/2024 13:44:30"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Validacion_Logout">
+		<detail>
+			Validacion_Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.199"
+			timeRelativeToTestModuleStartTime="00:11.199"
+			timeWallClock="13:44:29"
+			time="00:11.199"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png') on item 'ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				itempath="body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				fullname="MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB"
+				id="7b6bc0ff88b84af08195b9b50b06eb81"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Validacion_Logout.cs"
+				codeline="82"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.511"
+			timeRelativeToTestModuleStartTime="00:12.511"
+			timeWallClock="13:44:30"
+			time="00:12.511"
+			level="Info"
+			category="Screenshot"
+			errimg="images_Validaci_4f930b09\Validaci_257a422f_rxlog.jpg"
+			errthumb="images_Validaci_4f930b09\Validaci_257a422f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Validacion_Logout.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.515"
+			timeRelativeToTestModuleStartTime="00:12.515"
+			timeWallClock="13:44:30"
+			time="00:12.515"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Src' of element for item 'MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.saucedemo.com']/body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				itempath="body/div[2]/?/?/img[@src='https://www.saucedemo.com/v1/img/Login_Bot_graphic.png']"
+				fullname="MyTest2Repository.ApplicationUnderTest.HttpsWwwSaucedemoComV1ImgLoginB"
+				id="7b6bc0ff88b84af08195b9b50b06eb81"
+				timeout="30000"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Validacion_Logout.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

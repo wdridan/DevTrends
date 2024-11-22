@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.11s"
+		durationms="5114"
+		type="root"
+		rid="10a632acf84574b7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 12:46:51"
+		timestampiso="2024-11-18T15:46:51"
+		endtime="18/11/2024 12:46:56"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Genero">
+		<detail>
+			Genero
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.795"
+			timeRelativeToTestModuleStartTime="00:04.795"
+			timeWallClock="12:46:56"
+			time="00:04.795"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=749,Y=229}.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Genero.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

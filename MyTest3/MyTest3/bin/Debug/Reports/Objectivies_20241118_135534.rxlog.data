@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.29s"
+		durationms="5294"
+		type="root"
+		rid="710633e886f3b50"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="wdrid"
+		rxversion="11.5.0.0"
+		host="DESKTOP-8J58NCQ"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1920x1080"
+		timestamp="18/11/2024 13:55:36"
+		timestampiso="2024-11-18T16:55:36"
+		endtime="18/11/2024 13:55:41"
+		timeoutfactor="0.5"
+		runid=""
+		sutversion=""
+		module="Objectivies">
+		<detail>
+			Objectivies
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.596"
+			timeRelativeToTestModuleStartTime="00:04.596"
+			timeWallClock="13:55:40"
+			time="00:04.596"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=738,Y=641}.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.911"
+			timeRelativeToTestModuleStartTime="00:04.911"
+			timeWallClock="13:55:40"
+			time="00:04.911"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=738,Y=641}.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\wdrid\OneDrive\Documentos\Ranorex\RanorexStudio Projects\MyTest3\MyTest3\Objectivies.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
